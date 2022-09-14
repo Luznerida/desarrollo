@@ -1,0 +1,206 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'open sans';
+}
+
+.login{
+    height: 100px;
+    color: darkgoldenrod;
+    font-size: 20px;
+    text-decoration: none;
+}
+.menu1{
+    position: fixed;
+    width: 100%;
+}
+header{
+    height: 50px;
+    background-color:rgb(20, 18, 18);
+    color: rgb(173, 24, 24);
+    width: 100%;
+}
+nav{
+    margin-top: 900px;
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+    background-color: rgba(0,0,0,.5);
+    position:fixed;  
+}
+.imagen1{
+    width: 200px;
+    height: 100px;
+}
+img{
+    width: 500px;
+    height: 400px;
+    margin-left: 800px;
+    margin-top: 50px;
+}
+.img1{
+    width: 500px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: -150px;
+    border-radius: 20px;
+}
+h2{
+    letter-spacing: 20px;
+    margin-left: 850px;
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal >li> a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+.menu-horizontal > li:hover{
+    background-color: gainsboro ;
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0,0,0,.5);
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color: black;
+}
+.menu-vertical li a{
+    display: block;
+    color: aliceblue;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+#texto1{
+    display: flex;
+    margin-top: 100px;
+    background-color: white;
+    width: 1000px;
+    margin-left: 100px;
+}
+p{
+    font-size: 20px;
+    margin-top: -90px;
+    color: darkkhaki;
+}
+h1{
+    margin-top: 100px;
+    margin-left:100px ;
+    color: darksalmon;
+}
+article{
+    margin-top: 30px;
+    background-image: url('../imagenes/reserva.jpeg');;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+h3{
+    margin-top: 100px;
+    font-size: 20px;
+    background-color: rgba(0,0,0,.5);
+}   
+footer{
+    background-color: rgba(2, 56, 105, 0.5);
+    height: 400px;
+    margin-top: 300px;
+}
+.lista{
+    border-radius:100px;
+    width: 150px;
+    height: 150px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+h4{
+    text-align: center;
+    width: 500px;
+    margin-left: 800px;
+    margin-top: 50px;
+}
+  
+.lista1{
+    margin-top: 20px;
+    width: 100%;
+    margin-left:-1px ; 
+    background-image: url('../imagenes/F4.jpg');;
+    height: 200px;
+}
+.comida{
+    margin-top: -1000px;
+    margin-left: -100;
+}
+.redes{
+    width: 40px;
+    height: 40px;
+    
+}
+.i{
+    margin-top: 200px;
+    margin-left: -100px;
+}
+.btn{
+    height: 45px;
+    width: 10%;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-left: 800px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    user-select: none;
+    background: linear-gradient(to right, var(--pink),var(--red));
+    color: rgb(5, 5, 5);
+    border-color: white;
+}
+.img2{
+    width: 400px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+}
+.reserva{
+    margin-top: -250px;
+    margin-left: -100px;
+}
+.fondoaside{
+    background-image: url('../imagenes/restaurante.webp');
+    background-size: contain;
+    height: 500px;
+}
+.rs1{
+    margin-left: 800px;
+    color: rgb(86, 38, 90);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+.rs2{
+    margin-top: 20px;
+    margin-left: 700px;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;   
+}
+.rs3{
+    margin-left: 800px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,sans-serif;
+    font-size: 15px;
+}
+    
